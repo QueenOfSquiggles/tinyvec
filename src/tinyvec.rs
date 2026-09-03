@@ -1,9 +1,9 @@
 use super::*;
 
-use alloc::vec::{self, Vec};
+use alloc::vec;
+use alloc::vec::Vec;
 use core::convert::TryFrom;
 use tinyvec_macros::impl_mirrored;
-
 #[cfg(feature = "rustc_1_57")]
 use alloc::collections::TryReserveError;
 
